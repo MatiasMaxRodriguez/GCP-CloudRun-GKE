@@ -42,6 +42,10 @@ El deploy del proyecto, junto con todas las configuraciones y dependencias, se r
 - outputs.tf
 - variables.tf
 
+## Diagrama del proyecto
+
+![diagrama del proyecto](https://github.com/MatiasMaxRodriguez/GCP-CloudRun-GKE/blob/main/gcp-cloudrun-gke.drawio.png)
+
 ## Tecnologías utilizadas:
 
 [Google GKE](https://cloud.google.com/kubernetes-engine?hl=es-419)
