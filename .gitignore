@@ -1,0 +1,40 @@
+# ==========================================
+#       Node.js & Dependencias Locales
+# ==========================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.env
+.env.local
+.env.production
+.env.development
+
+# ==========================================
+#    Terraform (Si lo usaste localmente)
+# ==========================================
+# Ignora el directorio de plugins y proveedores de Terraform
+.terraform/
+
+# Ignora archivos de estado de Terraform
+*.tfstate
+*.tfstate.backup
+.terraform.tfstate.lock.info
+
+# Ignora variables de entorno específicas de Terraform
+*.tfvars
+*.tfvars.json
+
+# ===================================================
+#    Archivos de Configuración de GCloud y Sistema
+# ===================================================
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+.DS_Store
+Thumbs.db

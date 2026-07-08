@@ -1,0 +1,13 @@
+{
+  "name": "node-gke-test",
+  "version": "1.0.0",
+  "description": "Prueba de conexion Cloud Run a GKE MongoDB",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.3.1"
+  }
+}
