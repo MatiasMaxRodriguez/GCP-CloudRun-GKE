@@ -5,10 +5,42 @@ microservicio serverless alojado en Google Cloud Run con una base de datos Mongo
 persistente que corre dentro de un clúster de Google Kubernetes Engine (GKE), utilizando
 enrutamiento interno seguro mediante Serverless VPC Access y exposición por NodePort.
 
+El deploy del proyecto, junto con todas las configuraciones y dependencias, se realizó con la siguiente estructura:
 
+-> /app-node-gcpinfracloudrun
+- app.js
+- mongodb-deploy.yaml
+- package.json
 
+-> /gcp-infra-cloudrun
+- .terraform.lock.hcl
+- main.tf
+- mongodb-deploy.yaml
+- outputs.tf
+- providers.tf
+- variables.tf
 
+-> /gcp-infra-cloudrun/modules
 
+-> ~/compute
+- main.tf
+- outputs.tf
+- variables.tf
+  
+-> ~/database
+- main.tf
+- outputs.tf
+- variables.tf
+
+-> ~/gke
+- main.tf
+- outputs.tf
+- variables.tf
+
+-> ~/networking
+- main.tf
+- outputs.tf
+- variables.tf
 
 ## Tecnologías utilizadas:
 
